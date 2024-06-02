@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "72004617169",
+    "project_id": "child-monitoring-system-a7d2a",
+    "storage_bucket": "child-monitoring-system-a7d2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72004617169:android:c08cfc23d7f7422758d6f0",
+        "android_client_info": {
+          "package_name": "com.example.childmonitoringsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOus_2PUFqMAEzPVIus-vTbQnN1on3dwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
