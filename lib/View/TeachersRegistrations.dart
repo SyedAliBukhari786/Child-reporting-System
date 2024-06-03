@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:childmonitoringsystem/View/Teachershatespeechview.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -308,18 +309,31 @@ class _TeachersState extends State<Teachers> {
                                         Row(
                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                           children: [
+
                                             IconButton(
                                               icon: Icon(Icons.edit, color: Colors.green,),
                                               onPressed: () {
                                                 _showEditDialog(docId, teacher);
                                               },
                                             ),
+
+                                            IconButton(
+                                              icon: Icon(Icons.auto_graph_sharp, color: Colors.red),
+                                              onPressed: () {
+                                                Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(builder: (context) => Hatespeechview()),
+                                                );
+                                              },
+                                            ),
+
                                             IconButton(
                                               icon: Icon(Icons.delete, color: Colors.red),
                                               onPressed: () {
                                                 _showDeleteConfirmationDialog(docId);
                                               },
                                             ),
+
                                           ],
                                         ),
 
