@@ -1,3 +1,4 @@
+import 'package:childmonitoringsystem/View/studentactivityview.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'Teachershatespeechview.dart';
@@ -226,7 +227,7 @@ class _StudentDetailsState extends State<StudentDetails> {
                             onPressed: () {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => Hatespeechview()),
+                                MaterialPageRoute(builder: (context) =>  StudentActivityview()),
                               );
                             },
                           ),

@@ -10,6 +10,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:lottie/lottie.dart';
 
+import 'HateSpeechDetector.dart';
 import 'TeachersRegistrations.dart';
 import 'classes.dart';
 
@@ -93,7 +94,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                                   child: Container(
                                     height: 25,
                                     width: 70,
-                                    child: Center(child: Text("View Profile", style: TextStyle(
+                                    child: Center(child: Text("Logout", style: TextStyle(
                                       fontSize: 11,color: Colors.white
 
                                     ),),),
@@ -505,6 +506,14 @@ class _AdminDashboardState extends State<AdminDashboard> {
           Navigator.push(
             context,
             MaterialPageRoute(builder: (context) => Teachers()),
+
+          );
+        }
+        else   if(title=="Hate Speech\nDetector"){
+          Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) =>  SpeechScreen()),
+
           );
         }
 

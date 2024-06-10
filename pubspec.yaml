@@ -43,6 +43,9 @@ dependencies:
   percent_indicator: ^4.2.3
   pdf: ^3.10.8
   fl_chart: ^0.68.0
+  speech_to_text: ^6.6.1
+  highlight_text: ^1.7.0
+  avatar_glow: ^3.0.1
 
 dev_dependencies:
   flutter_test:
